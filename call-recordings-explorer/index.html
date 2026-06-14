@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Public resources for Call Recordings Explorer by OrbenLogic.">
+  <title>Call Recordings Explorer | OrbenLogic</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --background: #0c0b11;
+      --surface: #191720;
+      --border: #34303d;
+      --text: #f7f2fb;
+      --muted: #c6becd;
+      --accent: #c5a7ff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--background);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    main {
+      width: min(760px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 72px 0;
+    }
+
+    .back { color: var(--accent); text-decoration: none; font-weight: 700; }
+    .back:hover, .back:focus-visible { text-decoration: underline; }
+
+    h1 {
+      margin: 44px 0 14px;
+      font-size: clamp(2.2rem, 7vw, 4rem);
+      line-height: 1.05;
+    }
+
+    .intro { margin: 0 0 42px; color: var(--muted); font-size: 1.1rem; line-height: 1.65; }
+
+    .resource {
+      display: block;
+      padding: 26px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--surface);
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .resource:hover, .resource:focus-visible { border-color: var(--accent); outline: none; }
+    .resource strong { display: block; margin-bottom: 8px; font-size: 1.3rem; }
+    .resource span { color: var(--muted); line-height: 1.55; }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="back" href="../">OrbenLogic</a>
+    <h1>Call Recordings Explorer</h1>
+    <p class="intro">Public policies and resources for Call Recordings Explorer.</p>
+
+    <a class="resource" href="privacy-policy.html">
+      <strong>Privacy Policy</strong>
+      <span>Learn how the application accesses, uses, stores, and shares information.</span>
+    </a>
+  </main>
+</body>
+</html>
