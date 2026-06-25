@@ -50,7 +50,7 @@
   <header>
     <div class="brand">ORBENLOGIC · CALL RECORDINGS EXPLORER</div>
     <h1>Privacy Policy</h1>
-    <p class="effective">Effective date: June 14, 2026</p>
+    <p class="effective">Effective date: June 25, 2026</p>
     <div class="summary">
       Call Recordings Explorer manages call-recording files that already exist on your device.
       The app does not record phone calls, does not show advertising, and does not upload your
@@ -63,7 +63,8 @@
     <p>
       Call Recordings Explorer is developed by OrbenLogic. This policy explains how the app
       accesses, uses, stores, and shares information. The app does not require an account and
-      currently has no OrbenLogic analytics, advertising, or cloud-storage backend.
+      has no OrbenLogic analytics, advertising, or cloud-storage service. OrbenLogic operates a
+      limited backend only to verify optional Pro purchases with Google Play.
     </p>
   </section>
 
@@ -102,8 +103,8 @@
 
     <h3>Notifications</h3>
     <p>
-      Notification permission is used for optional after-call shortcuts and media-playback
-      controls. Notifications may show a contact name or phone number, contact image, recording
+      Notification permission is used for optional after-call shortcuts. Notifications may show
+      a contact name or phone number, contact image, recording
       duration, and quick actions. Visibility on the lock screen is controlled by your Android
       notification settings.
     </p>
@@ -132,8 +133,9 @@
     <p>
       You choose where the backup is saved through Android's file picker. Password protection is
       optional. OrbenLogic does not receive the backup or its password and cannot recover a lost
-      password. Android may separately back up some app data through the device's system-backup
-      service, depending on your device and Google account settings.
+      password. Call Recordings Explorer excludes its app-managed data from Android's automatic
+      cloud backup and device-transfer backup. Use the app's Backup and restore feature when you
+      want to preserve this information.
     </p>
   </section>
 
@@ -150,12 +152,33 @@
     <h2>Google Play purchases and updates</h2>
     <p>
       Optional Pro purchases are processed by Google Play. The app receives product information,
-      localized pricing, purchase status, and a purchase token as needed to unlock, acknowledge,
-      and restore Pro access. OrbenLogic does not receive or store your payment-card details.
-      Google may process purchase, account, device, and update information under the
+      localized pricing, purchase status, and a purchase token. To securely unlock and restore Pro
+      access, the app sends the product ID and purchase token to OrbenLogic's purchase-verification
+      service, which checks the purchase with the Google Play Developer API and may acknowledge a
+      valid purchase. The service does not receive your recordings, contacts, notes, labels,
+      backup files, or payment-card details, and it does not persist purchase tokens or user
+      profiles. Google may process purchase, account, device, and update information under the
       <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
     </p>
     <p>The app may also communicate with Google Play to check for available app updates.</p>
+  </section>
+
+  <section>
+    <h2>Support email</h2>
+    <p>
+      If you choose Contact support, the app prepares an email to OrbenLogic support using your
+      email app. The email includes the issue title and description you enter, plus diagnostic
+      details that help troubleshoot device-specific problems: app version, package name, Android
+      version, Android SDK level, security patch level, manufacturer, brand, model, device,
+      product, hardware, board, supported ABIs, and system language. You can review and edit the
+      email before sending it.
+    </p>
+    <p>
+      Support emails are sent to <a href="mailto:orbenlogic@gmail.com">orbenlogic@gmail.com</a>.
+      OrbenLogic uses the information in support emails to respond to support requests and diagnose
+      app issues. Your email provider and OrbenLogic's email provider may process the message and
+      standard email metadata under their own policies.
+    </p>
   </section>
 
   <section>
@@ -165,7 +188,8 @@
       <li>Sharing recordings or notes;</li>
       <li>Opening a recording in an external media player;</li>
       <li>Saving or restoring a backup through Android's file picker; or</li>
-      <li>Purchasing Pro through Google Play.</li>
+      <li>Purchasing Pro through Google Play; or</li>
+      <li>Sending a support email through your email app.</li>
     </ul>
     <p>Information sent to another app or service is governed by that recipient's privacy policy.</p>
   </section>
@@ -174,8 +198,14 @@
     <h2>Collection, sharing, and sale</h2>
     <p>
       The current version does not transmit your recordings, contacts, notes, labels, voice notes,
-      or saved searches to OrbenLogic. OrbenLogic does not sell personal information. Google Play
-      processes information necessary to provide purchases and app updates as described above.
+      saved searches, or backup contents to OrbenLogic. When Pro verification is used, the product
+      ID and Google Play purchase token are processed transiently by OrbenLogic's verification
+      service. Hosting providers may process standard request metadata, such as IP address and
+      request time, for security and operational logging. When you send a support email,
+      OrbenLogic receives the content of that email, the included device and app details, your
+      email address, and standard email metadata. OrbenLogic does not sell personal information.
+      Google Play processes information necessary to provide purchases and app updates as
+      described above.
     </p>
   </section>
 
@@ -190,7 +220,11 @@
     </ul>
     <p>
       Uninstalling the app does not automatically delete original call recordings stored outside
-      the app. Google may retain purchase records according to its own policies.
+      the app. The purchase-verification service does not maintain an OrbenLogic purchase-history
+      database. Google and the hosting provider may retain purchase records or operational logs
+      according to their own policies and configured retention periods. Support emails may be
+      retained as needed to respond to the request, maintain support history, troubleshoot app
+      issues, and meet legal or security obligations.
     </p>
   </section>
 
@@ -219,8 +253,8 @@
   <section>
     <h2>Contact</h2>
     <p>
-      For privacy questions or requests, contact OrbenLogic through the public
-      <a href="https://github.com/Orben-Logic/Orben-Logic.github.io/issues/new">Call Recordings Explorer support page</a>.
+      For privacy questions, support requests, or deletion requests related to support emails,
+      contact OrbenLogic at <a href="mailto:orbenlogic@gmail.com">orbenlogic@gmail.com</a>.
     </p>
   </section>
 
